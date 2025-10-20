@@ -8,7 +8,6 @@ This repository provides tools to **export**, **convert**, and **run inference**
 
 ### `export_model.py`
 - Exports a trained YOLOv8 model (`.pt`) to ONNX format.
-- Keeps dynamic shapes and supports FP16 export.
 - Use this to prepare your model for deployment on ONNX Runtime or TensorRT.
 
 ---
